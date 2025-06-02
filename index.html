@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisata Melayu Kepri</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Jejak Tanah Melayu</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#" onclick="showPage('home')" class="nav-item active">Home</a></li>
+                <li><a href="#" onclick="showPage('sejarah')" class="nav-item">Sejarah Melayu</a></li>
+                <li><a href="#" onclick="showPage('destinasi')" class="nav-item">Destinasi</a></li>
+                <li><a href="#" onclick="showPage('tim')" class="nav-item">Tim Kami</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Page -->
+        <section id="home" class="page active">
+            <div class="hero">
+                <div class="hero-content">
+                    <h1>Selamat Datang di Wisata Melayu Kepri</h1>
+                    <p>Jelajahi Kekayaan Sejarah dan Budaya Melayu di Kepulauan Riau</p>
+                    <button class="cta-button" onclick="showPage('destinasi')">Jelajahi Destinasi</button>
+                </div>
+            </div>
+            
+            <div class="container">
+                <section class="intro-section">
+                    <h2>Tentang Kepulauan Riau</h2>
+                    <div class="intro-grid">
+                        <div class="intro-card">
+                            <h3>Peradaban Islam</h3>
+                            <p>Gerbang penyebaran Islam di Nusantara dengan masjid-masjid bersejarah</p>
+                        </div>
+                        <div class="intro-card">
+                            <h3>Budaya Melayu</h3>
+                            <p>Tradisi dan adat istiadat Melayu yang masih lestari hingga kini</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="highlight-section">
+                    <h2>Highlights Wisata</h2>
+                    <div class="highlight-grid">
+                        <div class="highlight-item" onclick="showPage('sejarah')">
+                            <h3>Kerajaan Riau-Lingga</h3>
+                            <p>Pelajari sejarah kerajaan Melayu yang pernah berjaya</p>
+                        </div>
+                        <div class="highlight-item" onclick="showPage('destinasi')">
+                            <h3>Destinasi Bersejarah</h3>
+                            <p>Kunjungi masjid, benteng, dan makam bersejarah</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <!-- Sejarah Melayu Page -->
+        <section id="sejarah" class="page">
+            <div class="container">
+                <div class="page-header">
+                    <h1>Sejarah Melayu Kepulauan Riau</h1>
+                    <p>Warisan Budaya dan Peradaban yang Abadi</p>
+                </div>
+
+                <article class="history-article">
+                    <h2>Sejarah Awal Melayu</h2>
+                    <div class="article-content">
+                        <p>Pada masa awal, sekitar abad ke-7 hingga ke-13, wilayah ini telah berada di bawah pengaruh Kerajaan Melayu yang berpusat di sekitar wilayah Jambi. Kerajaan Melayu kemudian menjadi bagian dari Kerajaan Sriwijaya, sebuah kerajaan maritim yang sangat kuat dan berkuasa di wilayah Selat Malaka dan sekitarnya. Pengaruh Sriwijaya membawa Kepulauan Riau masuk ke dalam sistem perdagangan internasional yang menghubungkan India, Tiongkok, dan dunia Arab. Sriwijaya juga turut memperkenalkan agama Buddha ke wilayah ini sebelum akhirnya digantikan oleh pengaruh Islam yang lebih dominan di kemudian hari.
+                        Memasuki abad ke-15, setelah kemunduran Sriwijaya, pengaruh politik dan budaya di Kepulauan Riau mulai didominasi oleh Kesultanan Melaka. Kesultanan ini memainkan peran penting dalam memperluas penyebaran agama Islam ke wilayah Kepulauan Riau, sekaligus menjadikan bahasa Melayu sebagai lingua franca atau bahasa pengantar yang digunakan dalam perdagangan, pemerintahan, dan pendidikan. Bahasa Melayu yang berkembang di bawah naungan Melaka ini kemudian menjadi cikal bakal bahasa Melayu Riau yang sangat halus, baku, dan indah dalam sastra.
+                        Setelah jatuhnya Melaka ke tangan Portugis pada tahun 1511, para bangsawan dan keturunan sultan Melaka melarikan diri dan mendirikan Kesultanan Johor yang kemudian bertransformasi menjadi Kesultanan Johor-Riau-Lingga. Kesultanan ini menjadikan wilayah Kepulauan Riau, khususnya pulau-pulau seperti Bintan, Penyengat, dan Lingga, sebagai pusat pemerintahan, budaya, dan agama Islam yang sangat berpengaruh. Salah satu pusat penting dalam kesultanan ini adalah Pulau Penyengat, yang tidak hanya menjadi tempat kediaman keluarga kerajaan, tetapi juga berkembang menjadi pusat intelektual dan sastra Melayu.
+                        Pada masa inilah lahir tokoh besar dalam kesusasteraan dan kebudayaan Melayu, yakni Raja Ali Haji, yang dikenal luas sebagai penulis Gurindam Dua Belas dan pencatat sejarah melalui Tuhfat al-Nafis. Ia juga berjasa dalam merumuskan kaidah bahasa Melayu baku yang kelak menjadi dasar bagi pembentukan Bahasa Indonesia modern. Kepulauan Riau, khususnya Pulau Penyengat, menjadi semacam "universitas budaya Melayu" pada abad ke-18 hingga ke-19, di mana kegiatan tulis-menulis, diskusi keagamaan, dan pengajaran bahasa berkembang sangat pesat.
+                        Namun, kejayaan Kesultanan Johor-Riau tidak berlangsung selamanya. Pada tahun 1824, ditandatanganilah Traktat London antara Inggris dan Belanda, yang membagi wilayah kekuasaan mereka di Asia Tenggara. Dalam perjanjian tersebut, Inggris mendapatkan wilayah Semenanjung Malaya dan Singapura, sementara Belanda menguasai wilayah Riau dan Lingga. Perjanjian ini menyebabkan perpecahan dalam kesultanan dan secara perlahan mengurangi kekuatan politik dan budaya kerajaan Melayu di Kepulauan Riau.
+                        Setelah masa penjajahan Belanda dan Jepang berakhir, Kepulauan Riau menjadi bagian dari Republik Indonesia yang merdeka pada tahun 1945. Pada awalnya, wilayah ini termasuk ke dalam Provinsi Riau. Namun, karena pertimbangan geografis, politik, dan ekonomi, pada tahun 2002 Kepulauan Riau secara resmi menjadi provinsi tersendiri dengan ibu kota awal di Tanjung Pinang, kota yang dahulu merupakan pusat kegiatan kerajaan dan budaya Melayu.</p>
+                    </div>
+                </article>
+
+                <section class="tokoh-section">
+                    <h2>Tokoh-Tokoh Bersejarah</h2>
+                    
+                    <div class="tokoh-grid">
+                        <div class="tokoh-card">
+                            <div class="tokoh-photo">
+                                <img src="Foto/Raja Ali Haji.jpeg" alt="Raja Ali Haji" class="tokoh-image">
+                            </div>
+                            <h3>Raja Ali Haji</h3>
+                            <div class="tokoh-info">
+                                <p><strong>Peran:</strong> Sastrawan, Sejarawan, dan Negarawan</p>
+                                <p><strong>Karya Terkenal:</strong> Tuhfat al-Nafis, Kitab Pengetahuan Bahasa</p>
+                                <p>Raja Ali Haji adalah tokoh intelektual terbesar Kerajaan Riau-Lingga. Beliau dikenal sebagai bapak bahasa Melayu modern dan penulis sejarah Melayu yang paling otoritatif. Karyanya "Tuhfat al-Nafis" menjadi sumber sejarah Melayu yang sangat berharga.</p>
+                            </div>
+                        </div>
+
+                        <div class="tokoh-grid">
+                            <div class="tokoh-card">
+                                <div class="tokoh-photo">
+                                <img src="Foto/Raja Haji fisabilillah.jpeg" alt="Raja Haji fisabilillah" class="tokoh-image">
+                            </div>
+                            <h3>Raja Haji Fisabilillah</h3>
+                            <div class="tokoh-info">
+                                <p><strong>Peran:</strong> Panglima Perang dan Pahlawan</p>
+                                <p><strong>Gelar:</strong> Yang Dipertuan Muda Riau</p>
+                                <p>Raja Haji Fisabilillah adalah seorang panglima yang gagah berani dalam mempertahankan kedaulatan Melayu. Beliau gugur dalam pertempuran melawan Belanda di Teluk Ketapang pada tahun 1784, dan dikenang sebagai pahlawan yang rela berkorban untuk tanah air.</p>
+                            </div>
+                        </div>
+                
+                </section>
+
+                <section class="islam-section">
+                    <h2>Peran Kepri dalam Penyebaran Islam dan Budaya Melayu</h2>
+                    <div class="islam-content">
+                        <div class="islam-point">
+                            <h3>Pusat Penyebaran Islam</h3>
+                            <p>Kepulauan Riau menjadi gerbang utama masuknya Islam ke Nusantara. Para pedagang dan ulama dari Timur Tengah singgah di pelabuhan-pelabuhan Kepri sebelum menyebarkan ajaran Islam ke seluruh Nusantara.</p>
+                        </div>
+
+                        <div class="islam-point">
+                            <h3>Pusat Pendidikan Islam</h3>
+                            <p>Masjid-masjid di Kepri tidak hanya berfungsi sebagai tempat ibadah, tetapi juga sebagai pusat pendidikan Islam. Banyak ulama terkenal yang mengajar dan mendidik generasi muda Muslim di kawasan ini.</p>
+                        </div>
+
+                        <div class="islam-point">
+                            <h3>Akulturasi Budaya</h3>
+                            <p>Islam yang masuk ke Kepri berpadu harmonis dengan budaya Melayu lokal, menciptakan tradisi dan adat istiadat yang unik. Perpaduan ini terlihat dalam arsitektur, seni, sastra, dan kehidupan sehari-hari masyarakat Melayu.</p>
+                        </div>
+
+                        <div class="islam-point">
+                            <h3>Jalur Perdagangan Maritim</h3>
+                            <p>Posisi strategis Kepri di Selat Malaka menjadikannya pusat perdagangan internasional. Melalui aktivitas perdagangan ini, nilai-nilai Islam dan budaya Melayu menyebar ke berbagai penjuru Asia Tenggara.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <!-- Destinasi Page -->
+        <section id="destinasi" class="page">
+            <div class="container">
+                <div class="page-header">
+                    <h1>Destinasi Wisata Bersejarah</h1>
+                    <p>Jelajahi Situs-Situs Bersejarah Kepulauan Riau</p>
+                </div>
+
+                <div class="destinasi-grid">
+                    <div class="destinasi-card">
+                        <div class="destinasi-image">
+                                <img src="Foto/masjid sultan.jpeg" alt="masjid sultan" class="destinasi-image">
+                            </div>
+                        <div class="destinasi-info">
+                            <h3>Masjid Sultan Riau</h3>
+                            <p>Masjid bersejarah yang dibangun pada abad ke-18, menjadi pusat kegiatan keagamaan Kesultanan Riau. Arsitektur khas Melayu dengan ornamen yang indah.</p>
+                            <div class="destinasi-details">
+                                <span class="detail-item"><strong>Lokasi:</strong> Pulau Penyengat</span>
+                                <span class="detail-item"><strong>Tahun:</strong> 1832</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="destinasi-card">
+                        <div class="destinasi-image">
+                                <img src="Foto/benteng.jpeg" alt="benteng" class="destinasi-image">
+                            </div>
+                        <div class="destinasi-info">
+                            <h3>Benteng Bukit Kursi</h3>
+                            <p>Benteng pertahanan yang dibangun untuk melindungi wilayah kerajaan dari serangan musuh. Struktur bangunan masih kokoh dan menjadi saksi sejarah perjuangan rakyat Riau.</p>
+                            <div class="destinasi-details">
+                                <span class="detail-item"><strong>Lokasi:</strong> Penyengat</span>
+                                <span class="detail-item"><strong>Tahun:</strong> 1784</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="destinasi-card">
+                         <div class="destinasi-image">
+                                <img src="Foto/makam raja.jpeg" alt="makam raja haji fisabilillah" class="destinasi-image">
+                            </div>
+                        <div class="destinasi-info">
+                            <h3>Makam Raja Haji Fisabilillah</h3>
+                            <p>Kompleks makam pahlawan Melayu yang gugur dalam pertempuran melawan penjajah. Tempat ini menjadi simbol kepahlawanan dan perjuangan bangsa.</p>
+                            <div class="destinasi-details">
+                                <span class="detail-item"><strong>Lokasi:</strong> Teluk Ketapang</span>
+                                <span class="detail-item"><strong>Wafat:</strong> 1784</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="destinasi-card">
+                       <div class="destinasi-image">
+                                <img src="Foto/Istana Damnah.jpeg" alt="Istana Damnah" class="destinasi-image">
+                            </div>
+                        <div class="destinasi-info">
+                            <h3>Istana Damnah</h3>
+                            <p>Bekas istana Sultan Riau yang kini menjadi museum. Menyimpan berbagai koleksi artefak dan benda bersejarah kerajaan Riau-Lingga.</p>
+                            <div class="destinasi-details">
+                                <span class="detail-item"><strong>Lokasi:</strong> Daik, Lingga</span>
+                                <span class="detail-item"><strong>Status:</strong> Museum</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="destinasi-card">
+                        <div class="destinasi-image">
+                                <img src="Foto/masjid nur.jpeg" alt="masjid raya nur ilahi" class="destinasi-image">
+                            </div>
+                        <div class="destinasi-info">
+                            <h3>Masjid Raya Nur Ilahi</h3>
+                            <p>Masjid tua dengan arsitektur khas Melayu, menjadi pusat spiritual masyarakat setempat. Memiliki kaligrafi Arab dan ornamen tradisional yang memukau.</p>
+                            <div class="destinasi-details">
+                                <span class="detail-item"><strong>Lokasi:</strong> Tanjungpinang</span>
+                                <span class="detail-item"><strong>Style:</strong> Arsitektur Melayu</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="destinasi-card">
+                        <div class="destinasi-image">
+                                <img src="Foto/makam engku.jpeg" alt="makam engku puteri raja hamidah" class="destinasi-image">
+                            </div>
+                        <div class="destinasi-info">
+                            <h3>Makam Engku Puteri Raja Hamidah</h3>
+                            <p>Kompleks makam keluarga kerajaan dengan arsitektur makam yang unik. Menunjukkan pengaruh budaya Melayu-Islam dalam tradisi penguburan.</p>
+                            <div class="destinasi-details">
+                                <span class="detail-item"><strong>Lokasi:</strong> Pulau Penyengat</span>
+                                <span class="detail-item"><strong>Era:</strong> Abad ke-19</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tim Kami Page -->
+        <section id="tim" class="page">
+            <div class="container">
+                <div class="page-header">
+                    <h1>Tim Kami</h1>
+                    <p>Dedikasi untuk Melestarikan Warisan Budaya Melayu</p>
+                </div>
+
+                <div class="tim-grid">
+                    <div class="tim-card">
+                        <div class="tim-photo">
+                            <img src="Foto/fikri.jpeg" alt="fikri" class="tim-photo">
+                        </div>
+                        <div class="tim-info">
+                            <h3>M. Khairul Fikri</h3>
+                            <p class="position">Project manager + Content Writer</p>
+                            <p class="description">Mahasiswa Umrah Fakultas Teknik Dan Teknologi Kemaritiman Angkatan 2022</p>
+                            <div class="social-links">
+                                <span>📧 2201020073@student.umrah.ac.id</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tim-card">
+                        <div class="tim-photo">
+                            <img src="Foto/akbar.jpeg" alt="akbar" class="tim-photo">
+                        </div>
+                        <div class="tim-info">
+                            <h3>Akbar Nurrahman</h3>
+                            <p class="position">Frontend Developer (HTML & JavaScript)</p>
+                            <p class="description">Mahasiswa Umrah Fakultas Teknik Dan Teknologi Kemaritiman Angkatan 2023.</p>
+                            <div class="social-links">
+                                <span>📧 anurrahman@student.umrah.ac.id</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tim-card">
+                        <div class="tim-photo">
+                            <img src="Foto/hafiz.jpeg" alt="hafiz" class="tim-photo">
+                        </div>
+                        <div class="tim-info">
+                            <h3>M Hafidz</h3>
+                            <p class="position">Quality Assurance + Asset Handler</p>
+                            <p class="description">Mahasiswa Umrah Fakultas Teknik Dan Teknologi Kemaritiman Angkatan 2023.</p>
+                            <div class="social-links">
+                                <span>📧 mhafizd@student.umrah.ac.id</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tim-card">
+                        <div class="tim-photo">
+                            <img src="Foto/tito.jpeg" alt="tito" class="tim-photo">
+                        </div>
+                        <div class="tim-info">
+                            <h3>Tito Pamungkas Wardana </h3>
+                            <p class="position">Frontend Developer (CSS & Responsiveness)</p>
+                            <p class="description">Mahasiswa Umrah Fakultas Teknik Dan Teknologi Kemaritiman Angkatan 2023.</p>
+                            <div class="social-links">
+                                <span>📧 tpwardana@student.umrah.ac.id</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tim-mission">
+                    <h2>Misi Kami</h2>
+                    <p>Kami berkomitmen untuk melestarikan, mempromosikan, dan mengedukasi masyarakat tentang kekayaan sejarah dan budaya Melayu di Kepulauan Riau. Melalui pendekatan yang profesional dan berbasis riset, kami berusaha memberikan pengalaman wisata yang bermakna dan edukatif.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Kontak</h4>
+                    <p>info@wisatamelayu.id</p>
+                    <p>+62 771 123456</p>
+                    <p>Tanjungpinang, Kepulauan Riau</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Jam Operasional</h4>
+                    <p>Senin - Jumat: 08:00 - 17:00</p>
+                    <p>Sabtu - Minggu: 08:00 - 16:00</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Wisata Melayu Kepri. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
